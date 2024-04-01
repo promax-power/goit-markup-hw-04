@@ -114,7 +114,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -412,10 +412,12 @@ fill: #f4f4fd;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -447,6 +449,13 @@ fill: #f4f4fd;
   color: #f4f4fd;
   max-width: 264px;
 }
+
+.media-footer-container {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .social-content {
   font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -455,6 +464,7 @@ fill: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 .footer-icon-list {
   display: flex;
@@ -472,12 +482,4 @@ fill: #f4f4fd;
   align-items: center;
   justify-content: center;
 }
-.footer-container {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
-}
-.media-footer-container {
-  position: absolute;
-  padding-left: 120px;
-}
+
