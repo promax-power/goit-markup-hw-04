@@ -187,6 +187,23 @@ button:focus {
   overflow: hidden;
 }
 
+
+.icons-about {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 72px) / 4);
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+
+}
+
+/*  
 .icons-list-main {
 display: flex;
   gap: 24px;
@@ -204,7 +221,7 @@ display: flex;
     border-radius: 4px;
     margin-bottom: 8px;
 }
-
+*/
 .about-main-list {
   display: flex;
   gap: 24px;
@@ -455,13 +472,6 @@ fill: #f4f4fd;
   text-transform: none;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.media-footer {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
-  margin-left: 120px;
 }
 
 .social-content {
