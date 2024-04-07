@@ -187,31 +187,10 @@ button:focus {
   overflow: hidden;
 }
 
-
-/*  
-.icons-list-main {
-display: flex;
-  gap: 24px;
-}
-
-.icons-list {
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: calc((100% - 72px) / 4);
-    background-color: #f4f4fd;
-    border: 1px solid #8e8f99;
-    height: 112px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-*/  
 .about-main-list {
   display: flex;
   gap: 24px;
 }
-
 
 .about-list {
   width: calc((100% - 72px) / 4);
